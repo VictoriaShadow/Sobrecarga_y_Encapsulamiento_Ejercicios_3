@@ -30,6 +30,4 @@ if (tipoReserva == 3)
 Reserva reserva1 = new Reserva(nombre, invitados, horas, mozos, dia, tipoReserva, tipoMenu, animaciones);
 
 reserva1.CalcularValor();
-
-Console.Clear();
 Console.WriteLine(reserva1.ObtenerResumen());
